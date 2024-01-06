@@ -18,10 +18,10 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = true
 let someString = String(someNumber)
 
-console.log(someNumber) // true
-console.log(someString) // "true"
-console.log(typeof someNumber) // number
-console.log(typeof someString) // string
+// console.log(someNumber) // true
+// console.log(someString) // "true"
+// console.log(typeof someNumber) // number
+// console.log(typeof someString) // string
 
 /* 
 Notes:
@@ -55,3 +55,14 @@ Notes:
     undefined => "undefined"
     0 => "0"
 */
+
+// Operations
+
+let a = 10
+let negValue = -a
+// console.log(negValue);
+
+let str1 = "Hello"
+let str2 = " Adnan"
+let str3 = str1 + str2
+console.log(str3);
